@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "image": "https://cdn.pixabay.com/photo/2016/03/31/17/56/cut-1294011_960_720.png"
+    },
+    {
+      "id": 2,
+      "image": "https://banner2.kisspng.com/20180224/eaw/kisspng-monster-com-wallpaper-green-monster-5a91755fa93407.2185318015194822076931.jpg"
+    },
+    {
+      "id": 3,
+      "image": "https://i.pinimg.com/originals/b4/c5/20/b4c5200e59fceaf6a5a92c11a77db95f.png"
+    },
+    {
+      "id": 4,
+      "image": "https://www.clipartmax.com/png/middle/183-1835085_baby-monster-svg-scrapbook-cut-file-cute-clipart-files-baby-monster-clipart.png"
+    },
+    {
+      "id": 5,
+      "image": "https://www.clipartmax.com/png/middle/81-816837_monster-clipart-8-clipart-kids-pedia-cute-monster-clip-art.png"
+    },
+    {
+      "id": 6,
+      "image": "https://www.clipartmax.com/png/middle/15-151816_cute-monster-clipart-one-eyed-monster-svg-cut-file-one-eyed-monster.png"
+    },
+    {
+      "id": 7,
+      "image": "https://www.clipartmax.com/png/small/2-25004_cute-fun-monster-clipart-cute-monster-clipart.png"
+    },
+    {
+      "id": 8,
+      "image": "https://www.clipartmax.com/png/middle/12-121873_little-monster-clip-art-little-monster-clipart-cute-little-monster-clipart.png"
+    },
+    {
+      "id": 9,
+      "image": "https://banner2.kisspng.com/20180218/frq/kisspng-bigfoot-yeti-clip-art-yeti-cliparts-5a89bc4e40f1a6.808135731518976078266.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Rocko",
+      "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
+      "occupation": "Cashier",
+      "location": "O-Town, California"
+    },
+    {
+      "id": 11,
+      "name": "Captain Planet",
+      "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
+      "occupation": "Superhero",
+      "location": "Earth"
+    },
+    {
+      "id": 12,
+      "name": "Ickis",
+      "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
+      "occupation": "Ahhhh! A Real Monster!",
+      "location": "Under a City Dump"
+    }
+  ]
