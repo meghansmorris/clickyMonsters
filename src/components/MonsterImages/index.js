@@ -5,15 +5,10 @@ function MonsterImages(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className="content">
-        <ul>
-
-        </ul>
+        <img alt={props.id} src={props.image} />
       </div>
     </div>
-  );
-}
+  )
+};
 
 export default MonsterImages;
