@@ -1,50 +1,62 @@
 [
     {
       "id": 1,
+      "value": 1,
       "image": "https://t4.ftcdn.net/jpg/01/67/38/07/240_F_167380778_WydDEkt44KosqNYx6bf6DODaFzQThU13.jpg"
     },
     {
       "id": 2,
+      "value": 1,
       "image": "https://t3.ftcdn.net/jpg/01/93/07/52/240_F_193075293_cG8OLFWbiwSqBKsUe10Pf9qL9WMS0vBS.jpg"
     },
     {
       "id": 3,
+      "value": 1,
       "image": "https://t3.ftcdn.net/jpg/01/93/07/42/240_F_193074266_lYllBUyrqTBigsXqGRddXXRnyQLHdgnE.jpg"
     },
     {
       "id": 4,
+      "value": 1,
       "image": "https://freedesignfile.com/upload/2018/09/Cartoon-monster-face-background-vector-04.jpg"
     },
     {
       "id": 5,
+      "value": 1,
       "image": "https://cdn1.vectorstock.com/i/1000x1000/39/30/fantasy-scary-smiling-cat-face-on-black-background-vector-18183930.jpg"
     },
     {
       "id": 6,
+      "value": 1,
       "image": "https://cdn3.vectorstock.com/i/1000x1000/12/62/cartoon-monster-face-vector-18881262.jpg"
     },
     {
       "id": 7,
+      "value": 1,
       "image": "https://media.istockphoto.com/vectors/cartoon-monster-face-vector-halloween-shocked-monster-square-avatar-vector-id1081861362?k=6&m=1081861362&s=612x612&w=0&h=S2n9Li3hpg1Bjs6GKd1RY13qdiIvIYJvOFgUze0n7Lg="
     },
     {
       "id": 8,
+      "value": 1,
       "image": "https://media.istockphoto.com/vectors/funny-cartoon-monster-face-with-eyeglasses-vector-halloween-monster-vector-id1078376482?k=6&m=1078376482&s=612x612&w=0&h=dtmYeC4QCb0NtiYbb0tl97fDg9kcAwSRzth2JYryOmA="
     },
     {
       "id": 9,
+      "value": 1,
       "image": "https://media.istockphoto.com/vectors/cartoon-growling-zombie-face-vector-zombie-monster-square-avatar-vector-id861987072?k=6&m=861987072&s=612x612&w=0&h=wwS4BDKxLZhJtDzx4res4ZwgGIk1mR3GRqtmaOd2_jE="
     },
     {
       "id": 10,
+      "value": 1,
       "image": "https://media.istockphoto.com/vectors/cute-little-cartoon-monster-green-smiling-little-monster-vector-id1076103154?k=6&m=1076103154&s=612x612&w=0&h=NsSn0cmQ5G-Mmt4rfsND3LQx13XYeDnIVO8KEJYqV8k="
     },
     {
       "id": 11,
+      "value": 1,
       "image": "https://t3.ftcdn.net/jpg/01/93/09/88/240_F_193098865_GK5ctwtGCkFd3KUwu1vtZBAMcQQzIntO.jpg"
     },
     {
       "id": 12,
+      "value": 1,
       "image": "https://cdn2.vectorstock.com/i/1000x1000/47/71/giant-violet-furry-square-monster-in-winter-vector-11524771.jpg"
     }
   ]

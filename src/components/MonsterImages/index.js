@@ -5,7 +5,8 @@ function MonsterImages(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.id} src={props.image} />
+        <img aria-label="clickItem" className="clickItem" alt={props.id} src={props.image} />
+        {/* <span id="shuffle" onClick={ ()=> props.addValue(props.value)}></span> */}
       </div>
     </div>
   )

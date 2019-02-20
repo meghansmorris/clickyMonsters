@@ -14,9 +14,16 @@ class App extends React.Component {
     monsters
   };
 
+  addValue = value => {
+    // when the monster is clicked, check that it hasn't already been clicked
+    //if it has been clicked, game over and update top score
+    //if it hasn't been clicked, add its value to the total and shuffle the monsters
+
+  }
+
   render() {
     return (
-      <container>
+      <div className="container">
         <NavBar />
         <Header />
         <Wrapper>
@@ -24,13 +31,14 @@ class App extends React.Component {
                 this.state.monsters.map(monster=> (
                   <MonsterImage
                   image={monster.image}
-
+                  key={monster.id}
+                  value={monster.value}
                   />
                 ))
               }
         </Wrapper>
         <Footer />
-      </container>
+      </div>
       )
   };
 };
