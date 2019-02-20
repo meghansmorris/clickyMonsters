@@ -1,11 +1,15 @@
 .wrapper {
     padding-top: 50px;
-    background: #ECEFF1;
     height: 100%;
     display: flex;
     flex-flow: row wrap;
-    padding: 20px;
+    padding: 0 100px 0 100px;
     justify-content: space-around;
-    align-content: flex-start;
+    align-content: center;
     overflow: auto;
   }
+
+.row {
+  background: #ECEFF1;
+  padding: 20px;
+}
