@@ -6,7 +6,6 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Counter from "./components/Counter";
  
     // when the monster is clicked, check that it hasn't already been clicked
     //if it has been clicked, game over, update top score and automatic restart of the game
@@ -27,6 +26,7 @@ class App extends React.Component {
       console.log("game over")
     } else {
       console.log("add point")
+      //doesn't mutate original array and allows you to add on to the array
       this.setState({ clickedMonsters: [...this.state.clickedMonsters, id] });
       this.setState({ score: this.state.score + 1 });
       console.log(this.state.clickedMonsters);
@@ -46,12 +46,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <NavBar />
+      <div className="container-fluid">
+        <NavBar score={this.state.score} topScore={this.state.topScore}/>
         <Header />
         <Wrapper>
-          <h1>{this.state.score}</h1>
-          <br />
               {
                 this.state.monsters.map(monster=> (
                   <MonsterImage
