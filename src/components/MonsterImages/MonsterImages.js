@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
+
 function MonsterImages(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img aria-label="clickItem" className="clickItem" alt={props.id} src={props.image} />
-        {/* <span id="shuffle" onClick={ ()=> props.addValue(props.value)}></span> */}
+        <img aria-label="clickItem" className="clickItem" onClick={()=>props.score(props.id)} alt={props.id} src={props.image} />
       </div>
     </div>
   )
