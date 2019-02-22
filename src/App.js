@@ -22,7 +22,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-
+    
   }
 
   shuffleArray = array => {
@@ -45,7 +45,6 @@ class App extends React.Component {
         unselectedMonsters: monsters,
         clickedMonsters: []
       })
-      alert("Game over, try again?")
     } else {
       console.log("add point")
       //doesn't mutate original array and allows you to add on to the array
@@ -67,6 +66,10 @@ class App extends React.Component {
       <div>
         <NavBar message={this.state.message} score={this.state.score} topScore={this.state.topScore}/>
         <Header />
+          {/* <div class="alert alert-info alert-dismissible" display="block">
+            <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Game over!</strong> Try again?
+          </div> */}
         <Wrapper>
               {
                 this.state.monsters.map(monster=> (
