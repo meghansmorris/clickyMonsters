@@ -8,7 +8,7 @@ function NavBar(props) {
       <div className="container-fluid">
         <div className="navbar-header">
           <a className="navbar-brand" href="/">
-            <img id="headerMonster" src="https://cdn.dribbble.com/users/149122/screenshots/2711052/icon.png" />
+            <img id="headerMonster" alt="navigationMonster" src="https://cdn.dribbble.com/users/149122/screenshots/2711052/icon.png" />
           </a>
         </div>
           <ul className="nav list-inline h4">

@@ -17,7 +17,7 @@ class App extends React.Component {
     clickedMonsters: [],
     topScore: 0,
     score: 0,
-    message: "Click an image to begin",
+    message: "Click a monster to begin",
     unselectedMonsters: monsters
   };
 
@@ -38,19 +38,20 @@ class App extends React.Component {
 
     if(this.state.clickedMonsters.includes(id)) {
       this.setState({
-        message: "You guessed incorrectly",
+        message: "Click a monster to begin",
         topScore: (this.state.score > this.state.topScore) ? this.state.score : this.state.topScore,
         score: 0,
         monsters: monsters,
-        unselectedMonsters: monsters
+        unselectedMonsters: monsters,
+        clickedMonsters: []
       })
-      console.log("game over")
+      alert("Game over, try again?")
     } else {
       console.log("add point")
       //doesn't mutate original array and allows you to add on to the array
       this.setState({ clickedMonsters: [...this.state.clickedMonsters, id] });
       this.setState({ 
-        message: "You guessed correctly",
+        message: "Yay!",
         score: this.state.score + 1,
         monsters: monsters,
         unselectedMonsters: monsters 
