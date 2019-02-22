@@ -15,3 +15,13 @@
 .navbar-text {
     font-size: 25px;
 }
+
+.scores {
+    color: grey;
+}
+
+#message {
+    text-align: justify;
+    padding-right: 70px;
+    color: #6567f6;
+}

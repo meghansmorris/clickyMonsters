@@ -13,41 +13,58 @@ import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
   state = {
-    monsters,
+    monsters: monsters,
     clickedMonsters: [],
     topScore: 0,
     score: 0,
+    message: "Click an image to begin",
+    unselectedMonsters: monsters
   };
+
+  componentDidMount() {
+
+  }
+
+  shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
 
   handleIncrement = (id) => {
     console.log("inside handleincrement")
     console.log(id);
+
     if(this.state.clickedMonsters.includes(id)) {
+      this.setState({
+        message: "You guessed incorrectly",
+        topScore: (this.state.score > this.state.topScore) ? this.state.score : this.state.topScore,
+        score: 0,
+        monsters: monsters,
+        unselectedMonsters: monsters
+      })
       console.log("game over")
     } else {
       console.log("add point")
       //doesn't mutate original array and allows you to add on to the array
       this.setState({ clickedMonsters: [...this.state.clickedMonsters, id] });
-      this.setState({ score: this.state.score + 1 });
+      this.setState({ 
+        message: "You guessed correctly",
+        score: this.state.score + 1,
+        monsters: monsters,
+        unselectedMonsters: monsters 
+      });
       console.log(this.state.clickedMonsters);
       console.log(this.state.score);
-      //shuffle
     };
-    
-}
-
-  shufflePics = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i+1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
+    this.shuffleArray(monsters);
   }
 
   render() {
     return (
-      <div className="container-fluid">
-        <NavBar score={this.state.score} topScore={this.state.topScore}/>
+      <div>
+        <NavBar message={this.state.message} score={this.state.score} topScore={this.state.topScore}/>
         <Header />
         <Wrapper>
               {

@@ -11,12 +11,14 @@ function NavBar(props) {
             <img id="headerMonster" src="https://cdn.dribbble.com/users/149122/screenshots/2711052/icon.png" />
           </a>
         </div>
-          <ul>
-            <li className="navbar-text currentScore h4">
-              {`Score: ${props.score}  |   `}
+          <ul className="nav list-inline h4">
+            <li id="message" className={props.message.indexOf('incorrectly') !== -1 ?
+                "desc-incorrect" : props.message.indexOf('correctly') !== -1 ?
+                "desc-correct" : "desc-normal"} >
+              {props.message}
             </li>
-            <li className="navbar-text topScore h4">
-              {`  Top Score: ${props.topScore} `}
+            <li className="scores">
+              {`Score: ${props.score}  |  Top Score: ${props.topScore}`}
             </li>
           </ul>
       </div>
